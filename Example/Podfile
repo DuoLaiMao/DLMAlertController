@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DLMAlertController_Example' do
+  pod 'DLMAlertController', :path => '../'
+
+  target 'DLMAlertController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
