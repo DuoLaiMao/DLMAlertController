@@ -1,0 +1,6 @@
+framework module Pods_DLMAlertController_Tests {
+  umbrella header "Pods-DLMAlertController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module DLMAlertController {
+  umbrella header "DLMAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}

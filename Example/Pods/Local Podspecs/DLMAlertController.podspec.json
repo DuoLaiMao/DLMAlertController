@@ -1,0 +1,22 @@
+{
+  "name": "DLMAlertController",
+  "version": "0.1.0",
+  "summary": "A short description of DLMAlertController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yangjian/DLMAlertController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yangjian": "yangjian@baijiahulian.com"
+  },
+  "source": {
+    "git": "https://github.com/yangjian/DLMAlertController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DLMAlertController/Classes/**/*"
+}
