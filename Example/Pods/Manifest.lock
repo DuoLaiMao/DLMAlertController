@@ -1,16 +1,39 @@
 PODS:
-  - DLMAlertController (0.1.0)
+  - DLMAlertController (0.1.0):
+    - DLMFoundation
+    - DLMKit
+    - Masonry
+  - DLMFoundation (1.0.0)
+  - DLMKit (1.0.0)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - DLMAlertController (from `../`)
+  - DLMFoundation (from `git@github.com:DuoLaiMao/DLMFoundation.git`)
+  - DLMKit (from `git@github.com:DuoLaiMao/DLMKit.git`)
 
 EXTERNAL SOURCES:
   DLMAlertController:
     :path: ../
+  DLMFoundation:
+    :git: git@github.com:DuoLaiMao/DLMFoundation.git
+  DLMKit:
+    :git: git@github.com:DuoLaiMao/DLMKit.git
+
+CHECKOUT OPTIONS:
+  DLMFoundation:
+    :commit: f80fa06d2d1075008e3b655542300130c65c8d0e
+    :git: git@github.com:DuoLaiMao/DLMFoundation.git
+  DLMKit:
+    :commit: 2880e045563f709c1b9bec9dc8bf56a25ccc885a
+    :git: git@github.com:DuoLaiMao/DLMKit.git
 
 SPEC CHECKSUMS:
-  DLMAlertController: c8feff5fa5990ca8f09645bd5df7839357c90934
+  DLMAlertController: 7949f4ea4466d53ef797cd26c2a30ba9a4323fad
+  DLMFoundation: 180ed396f880472392cde86527df2a9d5c08ac73
+  DLMKit: 4df13bf7d2e471cd56f8e376a40e8e2f4a1127aa
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 4f2e6f61163bcdaa584b124e200a45c2cda521f0
+PODFILE CHECKSUM: 821cfe99ea17d839a13be645694f3352f1bd9090
 
 COCOAPODS: 1.3.1

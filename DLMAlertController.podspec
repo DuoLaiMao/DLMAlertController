@@ -36,7 +36,10 @@ TODO: Add long description of the pod here.
   #   'DLMAlertController' => ['DLMAlertController/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/DLMAlertController.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Masonry'
+  s.dependency 'DLMFoundation'#, :git => 'git@github.com:DuoLaiMao/DLMFoundation.git'
+  s.dependency 'DLMKit' #, :git => 'git@github.com:DuoLaiMao/DLMKit.git'
 end

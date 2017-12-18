@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'DLMAlertController_Example' do
   pod 'DLMAlertController', :path => '../'
+  pod 'DLMFoundation', :git => 'git@github.com:DuoLaiMao/DLMFoundation.git'
+  pod 'DLMKit', :git => 'git@github.com:DuoLaiMao/DLMKit.git'
 
   target 'DLMAlertController_Tests' do
     inherit! :search_paths
