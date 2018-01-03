@@ -18,5 +18,17 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DLMAlertController/Classes/**/*"
+  "source_files": "DLMAlertController/Classes/**/*",
+  "public_header_files": "Pod/Classes/DLMAlertController.h",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "DLMFoundation": [
+
+    ],
+    "DLMKit": [
+
+    ]
+  }
 }

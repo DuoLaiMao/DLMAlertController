@@ -103,9 +103,15 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/DLMAlertController/DLMAlertController.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DLMFoundation/DLMFoundation.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DLMKit/DLMKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/DLMAlertController/DLMAlertController.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DLMFoundation/DLMFoundation.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DLMKit/DLMKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
